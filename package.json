@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3002",
-    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
-    "start": "NEXT_PRIVATE_LOCAL_WEBPACK=true next start -p 3002",
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3002",
     "lint": "eslint"
   },
   "dependencies": {
